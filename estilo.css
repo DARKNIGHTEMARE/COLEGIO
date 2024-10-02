@@ -1,0 +1,141 @@
+.fondo{ background-color:slategray; 
+background-image: url(imagenes/colegio1.jpg);
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+}
+
+.aguila{
+    height: 400px;
+    width: 800px;
+}
+.mision{ margin-left: 50px; }
+.vision{ margin-left: 50px; }
+.historia{ margin-left: 50px; }
+
+.inst{ 
+transition:transform 0.3s ;
+ }
+
+
+.inst:hover{ 
+transform: translateY(-10px);
+
+ }
+
+
+
+
+
+.contacto{ 
+    display: flex; left: 200px;
+ }
+
+.facebook{ transition:transform 0.3s  }
+.facebook:hover{ transform: translateY(-10px); 
+    filter: invert(98%) sepia(13%) saturate(4290%) hue-rotate(172deg) brightness(92%) contrast(93%); }
+
+.instagram{ transition:transform 0.3s }
+.instagram:hover{ transform: translateY(-10px); 
+    filter: invert(98%) sepia(13%) saturate(4290%) hue-rotate(172deg) brightness(92%) contrast(93%);}
+
+.x{ transition:transform 0.3s }
+.x:hover{ transform: translateY(-10px); 
+    filter: invert(98%) sepia(13%) saturate(4290%) hue-rotate(172deg) brightness(92%) contrast(93%);}
+
+
+
+
+.nav-item0{ transition:transform 0.3s }
+.nav-item0:hover{ transform: translateY(-10px); }
+
+.dropdown-item1{ text-decoration: none; 
+    color: aliceblue; 
+    left:200px ; 
+     background-color: black;
+     border-radius: 5px;
+    border: solid;
+    display: grid; }
+
+.dropdown-item1:hover{ 
+    color: brown;
+    text-decoration: none;
+}
+
+.dropdown-item2{ text-decoration: none; 
+    color: aliceblue; 
+    left:200px ; 
+     background-color: black;
+     border-radius: 5px;
+     border: solid;
+     display: grid; }
+
+.dropdown-item2:hover{ 
+    color: brown;
+    text-decoration: none;
+}
+
+.dropdown-item3{ text-decoration: none; 
+    color: aliceblue; 
+    left:200px ; 
+     background-color: black;
+     border-radius: 5px;
+     border: solid;
+     display: grid; }
+
+.dropdown-item3:hover{ 
+    color: brown;
+    text-decoration: none;
+}
+
+.carta{ width:50% ; height:50% ; }
+
+
+.trestablas{ display: flex; justify-content: space-evenly; }
+
+.antispiral{ clip-path: circle(45%); width:300px ; height:200px ; display: flex; }
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+}
+th, td {
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background-color: #f2f2f2;
+}
+td[colspan] {
+    background-color: #e6e6e6;
+}
+
+
+
+.navbar.bg-dark {
+    background-image: url(imagenes/fondoparacolegio.avif); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: auto;}
+
+.colordetexto{ color: #000; }
+
+.fondohorario{ background-color: white; }
+
+.fondotexto{ background-color: white; }
+.fondotexto2{ background-color: white; height: 300px; width:1000px ; }
+.fondotexto3{ background-color: white; height: 400px; width:1000px ; }
+.fondotexto4{ 
+    background-color: white; height: 900px; width:500px ;
+    border: 5px solid black; 
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px; }
+
+.feliz{ width: 600px; height:600px ; }
+
